@@ -12,6 +12,7 @@ Available toolbar buttons:
 * __build an ioton project__
 * __upload to the ioton board__
 * __clean an ioton project__
+* __open an serial monitor__
 * -
 * __split screen horizontally__
 * __split screen vertically__
@@ -25,11 +26,11 @@ __Note__: The toolbar buttons that require other packages will only appear if yo
 
 ## Installation
 
-First you have to install the `tool-bar` nad `aioton` package which are required:
+First you have to install the `tool-bar` nad `ioton` package which are required:
 
 ```bash
 apm install tool-bar
-apm install aioton
+apm install ioton
 ```
 
 Then you install the `tool-bar-ioton` package:

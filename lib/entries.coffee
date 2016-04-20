@@ -2,33 +2,41 @@ module.exports = [
   {
     type: 'button'
     tooltip: 'New Project'
-    dependency: 'aioton'
-    callback: 'ioton:new_project'
+    dependency: 'ioton'
+    callback: 'ioton:new-project'
     icon: 'folder-plus'
     iconset: 'icomoon'
   },
   {
     type: 'button'
-    tooltip: 'Build project'
-    dependency: 'aioton'
+    tooltip: 'Build Project'
+    dependency: 'ioton'
     callback: 'ioton:build'
     icon: 'hammer'
     iconset: 'ion'
   },
   {
     type: 'button'
-    tooltip: 'Upload firmware'
-    dependency: 'aioton'
+    tooltip: 'Upload Firmware'
+    dependency: 'ioton'
     callback: 'ioton:upload'
     icon: 'arrow-circle-o-up'
     iconset: 'fa'
   },
   {
     type: 'button'
-    tooltip: 'Clean build files'
-    dependency: 'aioton'
+    tooltip: 'Clean Build Files'
+    dependency: 'ioton'
     callback: 'ioton:clean'
     icon: 'bin'
+    iconset: 'icomoon'
+  },
+  {
+    type: 'button'
+    tooltip: 'Serial Monitor'
+    dependency: 'ioton'
+    callback: 'ioton:serial-monitor'
+    icon: 'terminal'
     iconset: 'icomoon'
   },
   {
