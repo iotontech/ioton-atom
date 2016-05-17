@@ -7,7 +7,8 @@ module.exports = [
     tooltip: 'New Ioton Project'
     callback: (ioton) ->
       @exec = require('child_process').exec
-      command = "iotonConfig"
+      home = process.env['HOME']
+      command = home + "/.atom/packages/ioton/bin/iotonConfig"
       @exec command
     icon: 'folder-plus'
     iconset: 'icomoon'
