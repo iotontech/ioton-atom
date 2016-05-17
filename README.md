@@ -4,39 +4,30 @@
 
 A tool-bar plugin that adds a toolbar with ioton platform integration and commonly used actions.
 
-![screenshot](https://github.com/iotontech/tool-bar-ioton/blob/master/screenshot.png)
+![screenshot](https://github.com/iotontech/ioton/blob/master/screenshot.png)
 
 Available toolbar buttons:
 
 * __create new ioton project__
-* __build an ioton project__
-* __upload to the ioton board__
-* __clean an ioton project__
-* __open an serial monitor__
 * -
 * __split screen horizontally__
 * __split screen vertically__
-* -
-* __toggle fullscreen__
 * __toggle tree-view__
-* -
-* __settings__
 
 __Note__: The toolbar buttons that require other packages will only appear if you have those packages installed
 
 ## Installation
 
-First you have to install the `tool-bar` nad `ioton` package which are required:
+First you have to install the `tool-bar` which is required:
 
 ```bash
 apm install tool-bar
-apm install ioton
 ```
 
-Then you install the `tool-bar-ioton` package:
+Then you install the `ioton` package:
 
 ```bash
-apm install tool-bar-ioton
+apm install ioton
 ```
 
 ## Custom entries
