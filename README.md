@@ -4,7 +4,7 @@
 
 A tool-bar plugin that adds a toolbar with ioton platform integration and commonly used actions.
 
-![screenshot](https://github.com/iotontech/ioton/blob/master/screenshot.png)
+![screenshot](https://github.com/iotontech/ioton-atom/blob/master/screenshot.png)
 
 Available toolbar buttons:
 
@@ -18,7 +18,7 @@ __Note__: The toolbar buttons that require other packages will only appear if yo
 
 ## Installation
 
-First you have to install the `tool-bar` which is required:
+First you have to install the `tool-bar` package which is required:
 
 ```bash
 apm install tool-bar
