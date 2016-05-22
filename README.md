@@ -4,7 +4,7 @@
 
 A tool-bar plugin that adds a toolbar with ioton platform integration and commonly used actions.
 
-![screenshot](https://github.com/iotontech/ioton-atom/blob/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/iotontech/ioton-atom/master/screenshot.png)
 
 Available toolbar buttons:
 
