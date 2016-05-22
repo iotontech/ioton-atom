@@ -7,9 +7,10 @@ module.exports = [
     tooltip: 'New Ioton Project'
     callback: (ioton) ->
       @exec = require('child_process').exec
-      home = process.env['HOME']
-      command = home + "/.atom/packages/ioton/bin/iotonConfig"
-      @exec command
+      process_architecture = process.platform
+      switch process_architecture
+        when 'linux' then @exec process.env['HOME'] + "/.atom/packages/ioton/bin/iotonConfig"
+        when 'win32' then @exec process.env['USERPROFILE'] + "\\.atom\\packages\\ioton\\bin\\iotonConfig"
     icon: 'folder-plus'
     iconset: 'icomoon'
   },
@@ -36,5 +37,8 @@ module.exports = [
     callback: 'tree-view:toggle'
     icon: 'list'
     iconset: 'icomoon'
+  },
+  {
+    type: 'spacer'
   }
 ]
