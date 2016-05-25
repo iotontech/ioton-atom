@@ -1,7 +1,7 @@
 {
   "name": "ioton",
   "main": "./lib/ioton",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Adds an toolbar with ioton platform integration and commonly used actions",
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
     "url": "https://github.com/varemenos/ioton-atom/issues"
   },
   "homepage": "https://github.com/iotontech/ioton-atom#readme",
-  "_id": "ioton@0.5.0",
+  "_id": "ioton@0.6.0",
   "_shasum": "d32e8522a015f67e74dd133e617cc90bab4bd7e0",
   "_resolved": "file:../d-116421-2915-m351t/package.tgz",
   "_from": "../d-116421-2915-m351t/package.tgz",
