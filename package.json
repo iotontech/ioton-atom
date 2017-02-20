@@ -1,7 +1,7 @@
 {
   "name": "ioton",
   "main": "./lib/ioton",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Adds an toolbar with ioton platform integration and commonly used actions",
   "repository": {
     "type": "git",

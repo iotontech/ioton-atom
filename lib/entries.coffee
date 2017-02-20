@@ -15,30 +15,6 @@ module.exports = [
     iconset: 'icomoon'
   },
   {
-    type: 'button'
-    tooltip: 'Split screen - Horizontally'
-    callback: 'pane:split-right'
-    icon: 'columns'
-    iconset: 'fa'
-  },
-  {
-    type: 'button'
-    tooltip: 'Split screen - Vertically'
-    callback: 'pane:split-down'
-    icon: 'columns fa-rotate-270'
-    iconset: 'fa'
-  },
-  {
-    type: 'spacer'
-  },
-  {
-    type: 'button'
-    tooltip: 'Toggle Sidebar'
-    callback: 'tree-view:toggle'
-    icon: 'list'
-    iconset: 'icomoon'
-  },
-  {
     type: 'spacer'
   }
 ]
